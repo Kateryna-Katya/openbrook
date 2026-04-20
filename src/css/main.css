@@ -159,3 +159,36 @@ align-items: start;
     padding: 10px;
   }
 }
+/* Key Features */
+.key-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.key-item{
+    display: flex;
+align-items: start;
+gap: 14px;
+color: #555;
+}
+@media only screen and (min-width: 1440px) {
+  .key-list{
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    gap: 24px;
+    width: 1088px;
+    margin: 48px auto;
+  }
+  .key-item{
+    width: 340px;
+    height: 84px;
+  }
+  .key-img{
+    width: 1312px;
+        height: 872px;
+  }
+}
