@@ -126,3 +126,36 @@ align-items: start;
     flex-direction: row;
  }
 }
+/* Core Gameplay */
+.core-list{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.core-item{
+    width: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+        color: #61574f;
+        text-align: center;
+}
+.core-item img{
+    height: 120px;
+}
+@media only screen and (min-width: 1440px) {
+  .big-one{
+    width: 580px;
+  }
+  .core-list{
+    margin-top: 48px;
+    justify-content: center;
+    gap: 48px;
+  }
+  .core-item{
+    width: 292px;
+    padding: 10px;
+  }
+}
