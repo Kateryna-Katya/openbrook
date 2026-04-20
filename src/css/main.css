@@ -1,0 +1,78 @@
+.home-section{
+    background-image: url("/img/home/mob-back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-container{
+    position: relative;
+}
+.home-wrapper{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-text{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.04;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fdfcf0;
+        text-shadow: 8px 8px 12px 0 rgba(64, 82, 101, 0.25);
+}
+.home-ttile{
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.04;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fdfcf0;
+    text-shadow: 8px 8px 12px 0 rgba(64, 82, 101, 0.25);
+}
+.home-text-two{
+font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.36;
+    text-align: center;
+    color: #fdfcf0;
+    text-shadow: 8px 8px 12px 0 rgba(64, 82, 101, 0.25);
+}
+.home-img{
+    position: absolute;
+    top: 16%;
+    left: 0;
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+background-image: url("/img/home/desk-back.png");
+ }
+ .home-text{
+    font-size: 24px;
+    letter-spacing: 0.1em;
+ }
+ .home-ttile{
+    font-size: 152px;
+    line-height: 1.04;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fdfcf0;
+ }
+ .home-text-two{
+    width: 488px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+ }
+ .home-img{
+    top: 13%;
+    left: -2%;
+ }
+}
