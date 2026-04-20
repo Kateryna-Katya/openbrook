@@ -2,55 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/openbrook/favicon.svg" />
+    <link rel="icon" type="image/png" href="/openbrook/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Openbrook</title>
     <script type="module" crossorigin src="/openbrook/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/openbrook/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/openbrook/assets/styles-B53--LEY.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    
 
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <div class="home-wrapper">
+        <p class="home-text">Bring the River Back to Life.</p>
+        <h1 class="home-ttile">Openbrook</h1>
+        <p class="home-text-two">Every channel you carve reshapes the valley, breathing life back into the parched earth.</p>
+    </div>
+    <picture>
+        <source srcset="/openbrook/assets/desk-BaDQz7ap.png 1x, /openbrook/assets/desk@2x-2sbbCNmW.png 2x" media="(min-width: 1440px)" />
+        <source srcset="/openbrook/assets/mob-Cejv_4rs.png 1x, /openbrook/assets/mob@2x-BLkE21AX.png 2x" media="(max-width: 1439px)" />
+        <img class="home-img" src="/openbrook/assets/mob-Cejv_4rs.png" alt="Fieldvalley" loading="lazy" />
+    </picture>    
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
