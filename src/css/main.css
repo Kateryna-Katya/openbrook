@@ -274,3 +274,94 @@ height: 402px;
     font-size: 24px;
  }
 }
+/* GALLERY */
+.gallery-container{
+    padding: 0;
+}
+.gallery-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.gallery-title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.04;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(253, 252, 240, 0.4);
+    pointer-events: none;
+}
+
+/* swiper */
+.gallery-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-swiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* кнопки */
+.gallery-btn {
+    position: absolute;
+    top: 88%;
+    transform: translateY(-50%);
+    z-index: 3;
+    border: none;
+    cursor: pointer;
+border-radius: 1455px;
+    padding: 14px;
+    width: 63px;
+    height: 63px;
+    background: #0c4c64;
+    transition: background 0.3s ease-in-out;
+}
+
+.gallery-btn.prev {
+    left: 20px;
+}
+
+.gallery-btn.next {
+    right: 20px;
+}
+.gallery-btn:hover{
+background: #0a475e;
+}
+@media only screen and (min-width: 1440px) {
+.gallery-title {
+        top: 80px;
+        font-size: 152px;
+letter-spacing: 0.32em;
+}
+.gallery-btn {
+    top: 50%;
+}
+
+.gallery-btn.prev {
+    left: 64px;
+}
+
+.gallery-btn.next {
+    right: 64px;
+}
+}
